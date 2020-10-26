@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deity
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: deity
+  template:
+    metadata:
+      labels:
+        app: deity
+    spec:
+      containers:
+        -
+          image: mystory/deityservice
+          name: deity
+          imagePullPolicy: Never
+          ports:
+            -
+              containerPort: 8083
+              name: deity
+          env:
+            - name: POSTGRES_ENDPOINT
+              value: "jdbc:postgresql://127.0.1.0:5432/"
+            - name: POSTGRES_PASSWORD
+              value: "hello"
+            - name: POSTGRES_USERNAME
+              value: "postgres"
+            - name: DEITY_URL
+              value: "http://story-deity"

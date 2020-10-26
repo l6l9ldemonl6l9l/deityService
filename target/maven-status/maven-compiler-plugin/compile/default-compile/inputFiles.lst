@@ -1,0 +1,7 @@
+/home/virus/IdeaProjects/deityService/src/main/java/distributedsystems/deityService/DeityApplication.java
+/home/virus/IdeaProjects/deityService/src/main/java/distributedsystems/deityService/services/models/Deity.java
+/home/virus/IdeaProjects/deityService/src/main/java/distributedsystems/deityService/services/IService/DeityIService.java
+/home/virus/IdeaProjects/deityService/src/main/java/distributedsystems/deityService/api/payload/DeityPayload.java
+/home/virus/IdeaProjects/deityService/src/main/java/distributedsystems/deityService/api/restControllers/DeityController.java
+/home/virus/IdeaProjects/deityService/src/main/java/distributedsystems/deityService/services/Service/DeityService.java
+/home/virus/IdeaProjects/deityService/src/main/java/distributedsystems/deityService/services/repository/DeityRepository.java

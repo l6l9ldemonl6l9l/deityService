@@ -1,0 +1,7 @@
+distributedsystems/deityService/DeityApplication.class
+distributedsystems/deityService/api/restControllers/DeityController.class
+distributedsystems/deityService/services/IService/DeityIService.class
+distributedsystems/deityService/services/repository/DeityRepository.class
+distributedsystems/deityService/services/Service/DeityService.class
+distributedsystems/deityService/api/payload/DeityPayload.class
+distributedsystems/deityService/services/models/Deity.class
